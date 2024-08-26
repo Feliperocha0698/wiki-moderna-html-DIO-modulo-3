@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header{
+    height: 150px;
+    /* background-color: orange; */
+    width: 95%;
+    margin: 0 auto;
+}
+
+nav{
+    height: 500px;
+    width: 33%;
+    /* background-color: greenyellow; */
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+nav a{
+    display: block;
+    margin: 10px;
+    text-decoration: none;
+}
+
+main{
+    height: auto;
+    width: 33%;
+    /* background-color: lightgray; */
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+figure{
+    display:inline-block;
+    height: auto;
+    width: auto;
+}
+
+#ciencia-da-computacao{
+    text-align:left;
+}
+
+aside {
+    height: 500px;
+    width: 30%;
+    /* background-color: lightseagreen; */
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    /* background-color: pink; */
+    height: 100px;
+    clear: both;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+footer > h4{
+    padding-top: 2%;
+}
+
+.caixa-pesquisa{
+    position: absolute;
+    left: 35%;
+    top: 13%;
+}
